@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\git\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "F:\\git\\humhub-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\06006c738acdd4afebaa973a289e09af\\res\\values-ro\\values.xml",

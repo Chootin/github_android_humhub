@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\git\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "F:\\git\\humhub-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\3323f5a2ed4f57d5e85d8f2391cc9ed5\\res\\values-v26\\values-v26.xml",

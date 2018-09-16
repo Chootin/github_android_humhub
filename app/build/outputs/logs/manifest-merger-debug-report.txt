@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
 MERGED from [com.roughike:bottom-bar:2.1.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\bottom-bar-2.1.1.aar\31f513f09000bcbe1327333aa9e73411\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3323f5a2ed4f57d5e85d8f2391cc9ed5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\443100d0b3284fddd85d74decb0bc4ae\AndroidManifest.xml:17:1-31:12
@@ -43,25 +43,25 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Alec\.gradle\ca
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-base-15.0.1.aar\662cd8c3e08f791c687e340676591e18\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\9813dc565b7c20887eb00639cc84a11b\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c307c2ef6fc19cfb21aff61eed59c612\AndroidManifest.xml:17:1-30:12
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
 	package
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:3:5-32
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:1-123:12
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:1-123:12
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7c3945106a43a3c925c3c3ff220e67a9\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7c3945106a43a3c925c3c3ff220e67a9\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-analytics:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-analytics-16.0.1.aar\f9047480264bc59412987c199d368758\AndroidManifest.xml:23:5-67
@@ -79,17 +79,17 @@ MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:6:5-66
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:6:22-63
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:6:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:8:5-79
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7c3945106a43a3c925c3c3ff220e67a9\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\7c3945106a43a3c925c3c3ff220e67a9\AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-analytics:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-analytics-16.0.1.aar\f9047480264bc59412987c199d368758\AndroidManifest.xml:24:5-79
@@ -107,9 +107,9 @@ MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:8:22-76
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:9:5-68
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-analytics:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-analytics-16.0.1.aar\f9047480264bc59412987c199d368758\AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-analytics-16.0.1.aar\f9047480264bc59412987c199d368758\AndroidManifest.xml:27:5-68
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\bfe5712ed9d9b3625a38879816219171\AndroidManifest.xml:24:5-68
@@ -123,66 +123,66 @@ MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Alec\.gradle\cach
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.1.aar\b7b6a7eac3f72f03fd1aee79099f271b\AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.1.aar\b7b6a7eac3f72f03fd1aee79099f271b\AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:9:22-65
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:9:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.CAMERA
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:12:5-65
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:12:5-65
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:12:22-62
 uses-feature#android.hardware.camera
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:13:5-60
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:13:5-60
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:13:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:14:5-70
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:14:5-70
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:14:19-67
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:14:19-67
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:17:5-79
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:17:22-76
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:18:5-81
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:18:22-78
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:18:22-78
 permission#com.becode.humhub.permission.C2D_MESSAGE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:25:5-27:47
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:25:5-27:47
 MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\758f69f185699caae44b88ccd7af4f83\AndroidManifest.xml:28:5-30:47
 	android:protectionLevel
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:27:9-44
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:27:9-44
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:26:9-64
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:26:9-64
 uses-permission#com.digitalborder.webappessentials.permission.C2D_MESSAGE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:29:5-97
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:29:5-97
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:29:22-94
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:29:22-94
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:32:5-82
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:32:5-82
 MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\758f69f185699caae44b88ccd7af4f83\AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:16.2.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\firebase-iid-16.2.0.aar\758f69f185699caae44b88ccd7af4f83\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:32:22-79
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:32:22-79
 supports-screens
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:35:5-40:49
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:35:5-40:49
 	android:largeScreens
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:38:9-36
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:38:9-36
 	android:smallScreens
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:36:9-36
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:36:9-36
 	android:requiresSmallestWidthDp
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:40:9-46
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:40:9-46
 	android:normalScreens
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:37:9-37
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:37:9-37
 	android:xlargeScreens
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:39:9-37
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:39:9-37
 application
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:42:5-121:19
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:42:5-121:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3323f5a2ed4f57d5e85d8f2391cc9ed5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3323f5a2ed4f57d5e85d8f2391cc9ed5\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\443100d0b3284fddd85d74decb0bc4ae\AndroidManifest.xml:25:5-29:19
@@ -256,143 +256,143 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c307c2ef6fc19cfb21aff61eed59c612\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c307c2ef6fc19cfb21aff61eed59c612\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:46:9-36
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:46:9-36
 	android:label
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:45:9-41
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:45:9-41
 	android:hardwareAccelerated
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:48:9-43
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:48:9-43
 	android:icon
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:44:9-43
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:44:9-43
 	android:allowBackup
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:43:9-35
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:43:9-35
 	android:theme
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:47:9-40
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:47:9-40
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:49:9-68
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:49:9-68
 activity#com.becode.humhub.SplashActivity
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:51:9-69:20
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:51:9-69:20
 	android:label
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:53:13-45
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:53:13-45
 	android:theme
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:54:13-56
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:52:13-60
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:52:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:55:13-58:29
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:55:13-58:29
 action#android.intent.action.MAIN
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:56:17-69
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:56:25-66
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:57:17-77
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:57:17-77
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:57:27-74
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:57:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:community.humhub.com+data:scheme:https
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:59:13-68:29
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:59:13-68:29
 action#android.intent.action.VIEW
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:60:17-69
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:60:17-69
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:60:25-66
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:60:25-66
 category#android.intent.category.DEFAULT
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:62:17-76
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:62:17-76
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:62:27-73
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:62:27-73
 category#android.intent.category.BROWSABLE
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:63:17-78
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:63:17-78
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:63:27-75
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:63:27-75
 data
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:65:17-67:59
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:65:17-67:59
 	android:host
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:67:21-56
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:67:21-56
 	android:scheme
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:66:21-43
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:66:21-43
 activity#com.becode.humhub.MainActivity
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:70:9-79:20
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:70:9-79:20
 	android:screenOrientation
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:73:13-49
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:73:13-49
 	android:label
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:72:13-45
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:72:13-45
 	android:theme
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:74:13-56
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:71:13-58
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:71:13-58
 intent-filter#action:name:OPEN_MAIN_1+category:name:android.intent.category.DEFAULT
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:75:13-78:29
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:75:13-78:29
 action#OPEN_MAIN_1
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:76:17-54
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:76:17-54
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:76:25-51
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:76:25-51
 activity#com.becode.humhub.SettingsActivity
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:80:9-87:20
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:80:9-87:20
 	android:parentActivityName
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:83:13-72
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:83:13-72
 	android:label
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:82:13-60
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:82:13-60
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:81:13-62
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:81:13-62
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:84:13-86:66
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:84:13-86:66
 	android:value
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:86:17-63
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:86:17-63
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:85:17-63
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:85:17-63
 activity#com.google.android.gms.ads.AdActivity
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:89:9-92:64
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:89:9-92:64
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:29:9-33:64
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:29:9-33:64
 	android:exported
 		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-15.0.1.aar\48f8e217668cd6fe813e484ba916cc62\AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:91:13-122
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:91:13-122
 	android:theme
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:92:13-61
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:92:13-61
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:90:13-65
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:90:13-65
 service#com.becode.humhub.FCM.MyFirebaseMessagingService
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:98:9-102:19
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:98:9-102:19
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:98:18-81
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:98:18-81
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:99:13-101:29
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:99:13-101:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:100:17-78
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:100:17-78
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:100:25-75
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:100:25-75
 service#com.becode.humhub.FCM.MyFirebaseInstanceIDService
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:104:9-108:19
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:104:9-108:19
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:104:18-82
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:104:18-82
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:105:13-107:29
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:105:13-107:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:106:17-80
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:106:17-80
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:106:25-77
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:106:25-77
 meta-data#com.google.android.gms.version
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:110:9-112:69
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:110:9-112:69
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\329f16806e1b9b0572d71a6734d24f23\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\329f16806e1b9b0572d71a6734d24f23\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:112:13-66
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:112:13-66
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:111:13-58
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:111:13-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:113:9-115:48
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:113:9-115:48
 	android:value
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:115:13-45
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:115:13-45
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:114:13-58
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:114:13-58
 meta-data#com.samsung.android.sdk.multiwindow.enable
-ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:116:9-118:36
+ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:116:9-118:36
 	android:value
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:118:13-33
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:118:13-33
 	android:name
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml:117:13-70
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml:117:13-70
 uses-sdk
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 MERGED from [com.roughike:bottom-bar:2.1.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\bottom-bar-2.1.1.aar\31f513f09000bcbe1327333aa9e73411\AndroidManifest.xml:8:5-10:41
 MERGED from [com.roughike:bottom-bar:2.1.1] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\bottom-bar-2.1.1.aar\31f513f09000bcbe1327333aa9e73411\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:design:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3323f5a2ed4f57d5e85d8f2391cc9ed5\AndroidManifest.xml:21:5-23:62
@@ -471,18 +471,18 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\9813dc565b7c20887eb00639cc84a11b\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c307c2ef6fc19cfb21aff61eed59c612\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\c307c2ef6fc19cfb21aff61eed59c612\AndroidManifest.xml:20:5-22:41
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3323f5a2ed4f57d5e85d8f2391cc9ed5\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		ADDED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
-		INJECTED from F:\git\github_android_humhub\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		ADDED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\git\humhub-android\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3323f5a2ed4f57d5e85d8f2391cc9ed5\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Alec\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\443100d0b3284fddd85d74decb0bc4ae\AndroidManifest.xml:26:9-28:38

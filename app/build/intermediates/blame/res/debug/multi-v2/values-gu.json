@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\git\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
+            "outputFile": "F:\\git\\humhub-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gu\\values-gu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\f9da5b59ea578090d58cdef09f943537\\res\\values-gu\\values.xml",

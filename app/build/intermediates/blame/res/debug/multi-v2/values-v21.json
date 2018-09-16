@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\git\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "F:\\git\\humhub-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\01b6608d6a5392730e56a9ed9e9b3f09\\res\\values-v21\\values-v21.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "F:\\git\\github_android_humhub\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "F:\\git\\humhub-android\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

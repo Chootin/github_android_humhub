@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\git\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
+            "outputFile": "F:\\git\\humhub-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-15.0.1.aar\\d0d1ba71efcce09bf16670a4f1f82ac1\\res\\values-iw\\values.xml",
