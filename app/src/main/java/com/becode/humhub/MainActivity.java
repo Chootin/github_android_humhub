@@ -24,17 +24,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.JavascriptInterface;
-import android.webkit.WebView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.InterstitialAd;
-
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.BottomBarTab;
 import com.roughike.bottombar.OnTabReselectListener;
 import com.roughike.bottombar.OnTabSelectListener;
-import com.roughike.bottombar.TabSelectionInterceptor;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -43,10 +39,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 
-import static android.R.attr.id;
-import static android.R.attr.value;
 import static com.becode.humhub.R.id.tab_home;
-import static com.becode.humhub.R.id.webView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 

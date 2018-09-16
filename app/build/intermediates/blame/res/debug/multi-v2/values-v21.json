@@ -1,36 +1,36 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Francesco\\Documents\\AndroidStudio\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "F:\\git\\github_android_humhub\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Francesco\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\0509c68ce61da572d743d0d02bc0bf8d\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\01b6608d6a5392730e56a9ed9e9b3f09\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,266",
-                        "endLines": "4,5",
-                        "endColumns": "12,96",
-                        "endOffsets": "261,358"
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "170,234",
-                        "startColumns": "4,4",
-                        "startOffsets": "12878,17428",
-                        "endLines": "172,234",
-                        "endColumns": "12,96",
-                        "endOffsets": "13084,17520"
+                        "startLines": "2,3,4,5,289,290,297,301,305,308",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,21060,21176,21633,21927,22222,22394",
+                        "endLines": "2,3,4,5,289,290,297,301,307,312",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,21171,21297,21754,22050,22389,22727"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Francesco\\Documents\\AndroidStudio\\github_android_humhub\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "source": "F:\\git\\github_android_humhub\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "17",
+                        "startOffsets": "19",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "313"
+                        "endOffsets": "320"
                     },
                     "to": {
                         "startLines": "6",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Francesco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\63f61b14b6f448b7b3c87306457aa37c\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\443100d0b3284fddd85d74decb0bc4ae\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247,259,260,261,264,267,268,271,272",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -61,7 +61,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Francesco\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\6097005d83542e70c944a961c3713d22\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\3323f5a2ed4f57d5e85d8f2391cc9ed5\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,266",
+                        "endLines": "4,5",
+                        "endColumns": "12,96",
+                        "endOffsets": "261,358"
+                    },
+                    "to": {
+                        "startLines": "170,234",
+                        "startColumns": "4,4",
+                        "startOffsets": "12878,17428",
+                        "endLines": "172,234",
+                        "endColumns": "12,96",
+                        "endOffsets": "13084,17520"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alec\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\e27c4ffd872b5d53f9f2adb7811f96ba\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -77,25 +96,6 @@
                         "endLines": "293,296,300,304",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "21465,21628,21922,22217"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Francesco\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\7ffb7dec6f60bc00c44e510ffaa22699\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
-                        "endLines": "2,3,4,5,6,7,8,9,12,17",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,289,290,297,301,305,308",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,21060,21176,21633,21927,22222,22394",
-                        "endLines": "2,3,4,5,289,290,297,301,307,312",
-                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,21171,21297,21754,22050,22389,22727"
                     }
                 }
             ]
