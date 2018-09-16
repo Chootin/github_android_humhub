@@ -43,15 +43,15 @@
     <!-- Type: "url" for web remote pages, "file" for local pages -->
     <string name="home_label">Dashboard</string>
     <string name="home_type">url</string>
-    <string name="home_url">https://community.humhub.com/dashboard</string>
+    <string name="home_url">https://social.rhinoland.com.au/index.php?r=dashboard%2Fdashboard</string>
 
     <string name="people_label">People</string>
     <string name="people_type">url</string>
-    <string name="people_url">https://community.humhub.com/directory/members</string>
+    <string name="people_url">https://social.rhinoland.com.au/index.php?r=directory%2Fdirectory%2Fmembers</string>
 
     <string name="messages_label">Messages</string>
     <string name="messages_type">url</string>
-    <string name="messages_url">https://community.humhub.com/mail/mail/index</string>
+    <string name="messages_url">https://social.rhinoland.com.au/index.php?r=mail%2Fmail%2Findex</string>
 
     <string name="faq_label">Faq</string>
     <string name="faq_type">url</string>
@@ -66,12 +66,12 @@
 
     <string name="logout_label">Logout</string>
     <string name="logout_type">url</string>
-    <string name="logout_url">https://community.humhub.com/user/auth/logout</string>
+    <string name="logout_url">https://social.rhinoland.com.au/index.php?r=user%2Fauth%2Flogout</string>
 
     <!-- Search button-->
     <string name="search_label">Search</string>
     <string name="search_type">url</string>
-    <string name="search_url">https://community.humhub.com/search</string>
+    <string name="search_url">https://social.rhinoland.com.au/index.php?r=search%2Fsearch%2Findex</string>
 
     <!-- If you want, you can customize the error page! -->
     <string name="error_page">error.html</string>
@@ -80,11 +80,11 @@
     <!--Home is connect by primary link-->
     <string name="spaces_label">Spaces</string>
     <string name="spaces_type">url</string>
-    <string name="spaces_url">https://community.humhub.com/directory/spaces</string>
+    <string name="spaces_url">https://social.rhinoland.com.au/index.php?r=directory%2Fdirectory%2Fspaces</string>
 
     <string name="notification_label">Notification</string>
     <string name="notification_type">url</string>
-    <string name="notification_url">https://community.humhub.com/notification/overview</string>
+    <string name="notification_url">https://social.rhinoland.com.au/index.php?r=notification%2Foverview</string>
 
     <!-- ########################################## STRINGS ######################################  -->
     <!-- String for translate -->
