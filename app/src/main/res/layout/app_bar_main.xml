@@ -23,15 +23,6 @@
             android:visibility="visible" />
 
     </android.support.design.widget.AppBarLayout>
-    <!--BOTTOM MENU TAB-->
-    <com.roughike.bottombar.BottomBar
-        android:id="@+id/bottomBar"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_gravity="bottom"
-        app:bb_tabXmlResource="@xml/bottombar_tabs"
-        app:bb_inActiveTabColor="#ffffff"
-        app:bb_activeTabColor="#ffffff"/>
 
     <include layout="@layout/content_main" />
     <!--uncomment for enable floating button set function on ManActivity.java-->

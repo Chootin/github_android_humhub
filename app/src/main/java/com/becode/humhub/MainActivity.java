@@ -121,16 +121,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
         }
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
-        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
         /*Action for floating button uncomment for enable*/
@@ -147,95 +147,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
         */
 
-
-        // New bottom BAR tabs
-        BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
-        final BottomBarTab nearby = bottomBar.getTabWithId(R.id.tab_notification);
-        // #badge-notifications
-        // set notification base webview call the value base javascript call 
-        nearby.setBadgeCount(1);
-        bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
-            @Override
-            public void onTabSelected(@IdRes int tabId ) {
-                if (tabId == tab_home) {
-                    Bundle bar_home = new Bundle();
-                    bar_home.putString("type", getString(R.string.home_type));
-                    bar_home.putString("url", getString(R.string.home_url));
-                    Fragment bar_home_h = new FragmentWebInteractive();
-                    bar_home_h.setArguments(bar_home);
-                    FragmentManager bar_home_hFragment = getSupportFragmentManager();
-                    bar_home_hFragment.beginTransaction().replace(R.id.frame_container, bar_home_h, "FragmentWebInteractive").commit();
-                    setTitle(getString(R.string.home_label));
-                    first_fragment = true;
-
-                } else if (tabId == R.id.tab_spaces) {
-                    Bundle bar_spaces = new Bundle();
-                    bar_spaces.putString("type", getString(R.string.spaces_type));
-                    bar_spaces.putString("url", getString(R.string.spaces_url));
-                    Fragment bar_spaces_s = new FragmentWebInteractive();
-                    bar_spaces_s.setArguments(bar_spaces);
-                    FragmentManager bar_spaces_sFragment = getSupportFragmentManager();
-                    bar_spaces_sFragment.beginTransaction().replace(R.id.frame_container, bar_spaces_s, "FragmentWebInteractive").commit();
-                    setTitle(getString(R.string.spaces_label));
-                    first_fragment = true;
-                } else if (tabId == R.id.tab_notification){
-                    Bundle bar_notify = new Bundle();
-                    bar_notify.putString("type", getString(R.string.notification_type));
-                    bar_notify.putString("url", getString(R.string.notification_url));
-                    nearby.removeBadge();
-                    Fragment bar_notification = new FragmentWebInteractive();
-                    bar_notification.setArguments(bar_notify);
-                    FragmentManager bar_notificationFragment = getSupportFragmentManager();
-                    bar_notificationFragment.beginTransaction().replace(R.id.frame_container, bar_notification, "FragmentWebInteractive").commit();
-
-                    setTitle(getString(R.string.notification_label));
-                    first_fragment = true;
-
-                }
-            }
-        });
-        // ON RESELECTED ITEM RETURN SAME URL
-
-        bottomBar.setOnTabReselectListener(new OnTabReselectListener() {
-            @Override
-            public void onTabReSelected(@IdRes int tabId) {
-                if (tabId == tab_home) {
-                    Bundle bar_home = new Bundle();
-                    bar_home.putString("type", getString(R.string.home_type));
-                    bar_home.putString("url", getString(R.string.home_url));
-                    Fragment bar_home_h = new FragmentWebInteractive();
-                    bar_home_h.setArguments(bar_home);
-                    FragmentManager bar_home_hFragment = getSupportFragmentManager();
-                    bar_home_hFragment.beginTransaction().replace(R.id.frame_container, bar_home_h, "FragmentWebInteractive").commit();
-                    setTitle(getString(R.string.home_label));
-                    first_fragment = true;
-                }
-                else if (tabId == R.id.tab_spaces) {
-                    Bundle bar_spaces = new Bundle();
-                    bar_spaces.putString("type", getString(R.string.spaces_type));
-                    bar_spaces.putString("url", getString(R.string.spaces_url));
-                    Fragment bar_spaces_s = new FragmentWebInteractive();
-                    bar_spaces_s.setArguments(bar_spaces);
-                    FragmentManager bar_spaces_sFragment = getSupportFragmentManager();
-                    bar_spaces_sFragment.beginTransaction().replace(R.id.frame_container, bar_spaces_s, "FragmentWebInteractive").commit();
-                    setTitle(getString(R.string.spaces_label));
-                    first_fragment = true;
-                } else if (tabId == R.id.tab_notification){
-                    Bundle bar_notify = new Bundle();
-                    bar_notify.putString("type", getString(R.string.notification_type));
-                    bar_notify.putString("url", getString(R.string.notification_url));
-                    Fragment bar_notification = new FragmentWebInteractive();
-                    bar_notification.setArguments(bar_notify);
-                    FragmentManager bar_notificationFragment = getSupportFragmentManager();
-                    bar_notificationFragment.beginTransaction().replace(R.id.frame_container, bar_notification, "FragmentWebInteractive").commit();
-                    setTitle(getString(R.string.notification_label));
-                    first_fragment = true;
-                }
-
-            }
-
-        });
-        // End bottom BAR tabs
         // Go to first fragment
         Intent intent = getIntent();
         if (intent.getExtras() != null && intent.getExtras().getString("link", null) != null && !intent.getExtras().getString("link", null).equals("")) {
@@ -364,7 +275,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public void onBackPressed() {
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         }
@@ -410,9 +321,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Fragment fragment = null;
         String tag = null;
         first_fragment = false;
-        if (id == R.id.people) {
+        if (id == R.id.home) {
             Bundle bundle = new Bundle();
             bundle.putInt("item_position", 0);
+            bundle.putString("type", getString(R.string.home_type));
+            bundle.putString("url", getString(R.string.home_url));
+            fragment = new FragmentWebInteractive();
+            fragment.setArguments(bundle);
+            tag = "FragmentWebInteractive";
+            first_fragment = true;
+        } else if (id == R.id.spaces) {
+            Bundle bundle = new Bundle();
+            bundle.putInt("item_position", 1);
+            bundle.putString("type", getString(R.string.spaces_type));
+            bundle.putString("url", getString(R.string.spaces_url));
+            fragment = new FragmentWebInteractive();
+            fragment.setArguments(bundle);
+            tag = "FragmentWebInteractive";
+            first_fragment = true;
+        } else if (id == R.id.people) {
+            Bundle bundle = new Bundle();
+            bundle.putInt("item_position", 2);
             bundle.putString("type", getString(R.string.people_type));
             bundle.putString("url", getString(R.string.people_url));
             fragment = new FragmentWebInteractive();
@@ -421,27 +350,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             first_fragment = true;
         } else if (id == R.id.messages) {
             Bundle bundle = new Bundle();
-            bundle.putInt("item_position", 1);
+            bundle.putInt("item_position", 3);
             bundle.putString("type", getString(R.string.messages_type));
             bundle.putString("url", getString(R.string.messages_url));
-            fragment = new FragmentWebInteractive();
-            fragment.setArguments(bundle);
-            tag = "FragmentWebInteractive";
-        } else if (id == R.id.documentation) {
-            Bundle bundle = new Bundle();
-            bundle.putInt("item_position", 2);
-            bundle.putSerializable("item_id", R.id.documentation);
-            bundle.putString("type", getString(R.string.documentation_type));
-            bundle.putString("url", getString(R.string.documentation_url));
-            fragment = new FragmentWebInteractive();
-            fragment.setArguments(bundle);
-            tag = "FragmentWebInteractive";
-        } else if (id == R.id.faq) {
-            Bundle bundle = new Bundle();
-            bundle.putInt("item_position", 3);
-            bundle.putSerializable("item_id", R.id.faq);
-            bundle.putString("type", getString(R.string.faq_type));
-            bundle.putString("url", getString(R.string.faq_url));
             fragment = new FragmentWebInteractive();
             fragment.setArguments(bundle);
             tag = "FragmentWebInteractive";
@@ -469,13 +380,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         fragmentManager.beginTransaction().replace(R.id.frame_container, fragment, tag).addToBackStack(null).commit();
 
         setTitle(item.getTitle());
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
     public void SetItemChecked(int position) {
-        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = findViewById(R.id.nav_view);
         navigationView.getMenu().getItem(position).setChecked(true);
     }
 
