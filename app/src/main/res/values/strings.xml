@@ -7,7 +7,7 @@
     <string name="rtl_version" translatable="false">false</string>
 
     <!-- Splash screen delay (milliseconds) 1500 = 1,5 seconds -->
-    <string name="splash_delay" translatable="false">1500</string>
+    <string name="splash_delay" translatable="false">500</string>
 
     <!-- Google Analytics OPTIONAL -->
     <string name="analytics_property_id" translatable="false"></string>

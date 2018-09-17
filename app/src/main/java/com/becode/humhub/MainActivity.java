@@ -8,12 +8,9 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.support.annotation.IdRes;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -27,10 +24,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.InterstitialAd;
-import com.roughike.bottombar.BottomBar;
-import com.roughike.bottombar.BottomBarTab;
-import com.roughike.bottombar.OnTabReselectListener;
-import com.roughike.bottombar.OnTabSelectListener;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -38,8 +31,6 @@ import org.apache.http.message.BasicNameValuePair;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
-
-import static com.becode.humhub.R.id.tab_home;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -53,11 +44,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public static final String PROPERTY_REG_ID = "notifyId";
     private static final String PROPERTY_APP_VERSION = "appVersion";
     SharedPreferences preferences;
-    String reg_cgm_id;
     static final String TAG = "MainActivity";
     private boolean first_fragment = false;
-    private double latitude;
-    private double longitude;
 
     @Override
     protected void onPause() {
@@ -178,98 +166,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             first_fragment = true;
         }
 
-        // Enable for insert Ad inside the application (uncomment row inside -> layout->content_main xml)
-        // -------------------------------  AdMob Banner ------------------------------------------------------------
-       /* AdView adView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().setRequestAgent("android_studio:ad_template").build();
-        adView.loadAd(adRequest);
-
-        // -------------------------------- AdMob Interstitial ----------------------------
-        // Prepare the Interstitial Ad
-        interstitial = new InterstitialAd(MainActivity.this);
-        // Insert the Ad Unit ID
-        interstitial.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
-
-        // Load ads into Interstitial Ads
-        interstitial.loadAd(adRequest);
-
-        AdTimer = new Timer();
-
-        // Prepare an Interstitial Ad Listener
-        interstitial.setAdListener(new AdListener() {
-            public void onAdLoaded() {
-                // Call displayInterstitial() function with timer
-                if (AdTimer != null) {
-                    AdTimer.schedule(new TimerTask() {
-                        @Override
-                        public void run() {
-                            runOnUiThread(new Runnable() {
-                                @Override
-                                public void run() {
-                                    displayInterstitial();
-                                }
-                            });
-                        }
-                    }, Integer.parseInt(getString(R.string.admob_interstiial_delay)));
-                }
-            }
-        });
-        */
-
-        if (preferences.getBoolean("pref_geolocation_update", true)) {
-
-            if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
-                    ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-
-                // create class object
-                GPSTracker gps = new GPSTracker(MainActivity.this);
-
-                // check if GPS enabled
-                if (gps.canGetLocation()) {
-                    latitude = gps.getLatitude();
-                    longitude = gps.getLongitude();
-
-
-                    int appVersion = getAppVersion(this);
-                    Log.i(TAG, "Saving regId on app version " + appVersion);
-                    SharedPreferences.Editor editor = preferences.edit();
-                    editor.putString("latitude", "" + latitude);
-                    editor.putString("longitude", "" + longitude);
-                    editor.putString(PROPERTY_APP_VERSION, ""+appVersion);
-                    editor.commit();
-
-
-                    Log.d("GPS", "Latitude: " + latitude + ", Longitude: " + longitude);
-
-
-                } else {
-                    // can't get location
-                    // GPS or Network is not enabled
-                    // Ask user to enable GPS/network in settings
-                    if (preferences.getBoolean("pref_gps_remember", false)) {
-                        gps.showSettingsAlert();
-                    }
-                }
-            } else {
-                // Request permission to the user
-                ActivityCompat.requestPermissions(this, new String[]{
-                        android.Manifest.permission.ACCESS_FINE_LOCATION,
-                        android.Manifest.permission.ACCESS_COARSE_LOCATION}, 1
-                );
-            }
-        }
-
-
         // Save token on server
         sendRegistrationIdToBackend();
-
-    }
-
-    public void displayInterstitial() {
-        // If Ads are loaded, show Interstitial else show nothing.
-        if (interstitial.isLoaded()) {
-            interstitial.show();
-        }
     }
 
     @Override
@@ -358,9 +256,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             tag = "FragmentWebInteractive";
         }
 
-        // ##################### --------------- EXAMPLE ----------------------- #################
-
-        else if (id == R.id.nav_1) {
+        else if (id == R.id.settings) {
             Intent i = new Intent(getBaseContext(), SettingsActivity.class);
             startActivity(i);
             return true;
@@ -389,8 +285,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView = findViewById(R.id.nav_view);
         navigationView.getMenu().getItem(position).setChecked(true);
     }
-
-
 
     /**
      * @return Application's version code from the {@code PackageManager}.
@@ -432,6 +326,4 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
 
     }
-
-
 }

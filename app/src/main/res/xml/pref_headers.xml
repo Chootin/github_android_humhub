@@ -11,10 +11,4 @@
         android:title="@string/pref_header_notifications"
         android:icon="@drawable/ic_notifications_black_24dp" />
 
-    <!-- Comment next block to disable GPS settings -->
-    <header
-        android:fragment="com.becode.humhub.SettingsActivity$GeolocationPreferenceFragment"
-        android:title="@string/pref_header_geolocation"
-        android:icon="@drawable/ic_sync_black_24dp" />
-
 </preference-headers>
