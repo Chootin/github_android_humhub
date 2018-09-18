@@ -19,12 +19,12 @@ Modify res/mipmap/your_logo.png
 
 # Additional functions
 
-## menu left right
-You can set if the burger menu show top left or top right got to: res/values/string.xml and change the value of rtl_version to true
+## Switching the menu side
+You can set if the burger menu show on the top left or top right go to: res/values/string.xml and change the value of rtl_version to true
 
-## floating button
+## Floating button
 To enable floating button uncomment  the relevant sections in ManActivity and res/app_bar_main.xml
 
 # TODO
-Real time notification
+Real time notifications
 
