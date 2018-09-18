@@ -136,3 +136,4 @@ fabric.properties
 .gradle/4.4/taskHistory/taskHistory.lock
 .gradle/buildOutputCleanup/buildOutputCleanup.lock
 .idea/caches/build_file_checksums.ser
+.idea/misc.xml
