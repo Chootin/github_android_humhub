@@ -1,5 +1,5 @@
 # Android Humhub
-A big thank you to the community HumHub!
+A big thank you to the HumHub community!
 
 ## Setup your app for your HumHub instance
 The name of the application is defined in string.xml | res/values/string <br>
