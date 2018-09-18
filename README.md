@@ -12,7 +12,7 @@ Change the png file located in mipmap/ic_laucher
 Change GMC json file with your configuration in Google Firebase project
 
 ## Colour
-Colour of application is located in res/values/colors.xml
+The Colour of application is located in res/values/colors.xml
 
 ## Set splash screen
 Modify res/mipmap/your_logo.png
